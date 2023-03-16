@@ -913,6 +913,44 @@ txt4DaSection1DoSubConteiner4.innerHTML = 'Compatible With All Browsers';
 
 txt4DaSection1DoSubConteiner4.style.fontFamily = rubic;
 
+//desenvolvendo os botões
+
+var miniBox1 = document.createElement('div');
+
+section1DoSubConteiner4.appendChild(miniBox1);
+
+box1DosubConteiner4.style.textAlign = 'center';
+
+box1DosubConteiner4.style.alignItems = 'center';
+
+box1DosubConteiner4.style.justifyContent = 'center'
+
+miniBox1.innerHTML = 'Order Now';
+
+miniBox1.style.backgroundColor = 'orangered';
+
+miniBox1.style.display = 'flex'
+
+miniBox1.style.fontFamily = rubic;
+
+miniBox1.style.fontSize = '20px';
+
+miniBox1.style.color = 'white';
+
+miniBox1.style.width = '150px';
+
+miniBox1.style.padding = '1%';
+
+miniBox1.style.textAlign = 'center';
+
+miniBox1.style.justifyContent = 'center';
+
+miniBox1.style.alignItems = 'center';
+
+miniBox1.style.marginLeft = '30%';
+
+miniBox1.style.marginTop = '9%'
+
 //Criando Box2
 var box2DosubConteiner4 = document.createElement('div')
 
@@ -1037,6 +1075,44 @@ txt4DaSection2DoSubConteiner4.innerHTML = 'Compatible With All Browsers';
 
 txt4DaSection2DoSubConteiner4.style.fontFamily = rubic;
 
+//desenvolvendo os botões
+
+var miniBox2 = document.createElement('div');
+
+section2DoSubConteiner4.appendChild(miniBox2);
+
+box2DosubConteiner4.style.textAlign = 'center';
+
+box2DosubConteiner4.style.alignItems = 'center';
+
+box2DosubConteiner4.style.justifyContent = 'center'
+
+miniBox2.innerHTML = 'Order Now';
+
+miniBox2.style.backgroundColor = 'orangered';
+
+miniBox2.style.display = 'flex'
+
+miniBox2.style.fontFamily = rubic;
+
+miniBox2.style.fontSize = '20px';
+
+miniBox2.style.color = 'white';
+
+miniBox2.style.width = '150px';
+
+miniBox2.style.padding = '1%';
+
+miniBox2.style.textAlign = 'center';
+
+miniBox2.style.justifyContent = 'center';
+
+miniBox2.style.alignItems = 'center';
+
+miniBox2.style.marginLeft = '30%';
+
+miniBox2.style.marginTop = '9%'
+
 //Criando terceira box
 var box3DosubConteiner4 = document.createElement('div')
 
@@ -1160,6 +1236,110 @@ section3DoSubConteiner4.appendChild(txt4DaSection3DoSubConteiner4);
 txt4DaSection3DoSubConteiner4.innerHTML = 'Compatible With All Browsers';
 
 txt4DaSection3DoSubConteiner4.style.fontFamily = rubic;
+
+//desenvolvendo os botões
+
+var miniBox3 = document.createElement('div');
+
+section3DoSubConteiner4.appendChild(miniBox3);
+
+box3DosubConteiner4.style.textAlign = 'center';
+
+box3DosubConteiner4.style.alignItems = 'center';
+
+box3DosubConteiner4.style.justifyContent = 'center'
+
+miniBox3.innerHTML = 'Order Now';
+
+miniBox3.style.backgroundColor = 'orangered';
+
+miniBox3.style.display = 'flex'
+
+miniBox3.style.fontFamily = rubic;
+
+miniBox3.style.fontSize = '20px';
+
+miniBox3.style.color = 'white';
+
+miniBox3.style.width = '150px';
+
+miniBox3.style.padding = '1%';
+
+miniBox3.style.textAlign = 'center';
+
+miniBox3.style.justifyContent = 'center';
+
+miniBox3.style.alignItems = 'center';
+
+miniBox3.style.marginLeft = '30%';
+
+miniBox3.style.marginTop = '9%';
+
+//Eventos no conteiner4
+
+const mudarCorDaMiniBox = () => {
+
+    miniBox1.style.backgroundColor = 'black';
+
+    miniBox1.style.color = 'orangered';
+}
+
+const corNormal = () => {
+
+    miniBox1.style.backgroundColor = 'orangered';
+
+    miniBox1.style.color = 'white'
+}
+
+miniBox1.addEventListener('click', mudarCorDaMiniBox);
+
+miniBox1.addEventListener('mouseleave', corNormal);
+
+miniBox1.addEventListener('touchend', corNormal);
+
+//Eventos na Segunda miniBox
+
+const mudarCorDaMiniBox2 = () => {
+
+    miniBox2.style.backgroundColor = 'black';
+
+    miniBox2.style.color = 'orangered';
+}
+
+const corNormal2 = () => {
+
+    miniBox2.style.backgroundColor = 'orangered';
+
+    miniBox2.style.color = 'white'
+}
+
+miniBox2.addEventListener('click', mudarCorDaMiniBox2);
+
+miniBox2.addEventListener('mouseleave', corNormal2);
+
+miniBox2.addEventListener('touchend', corNormal2);
+
+//Eventos na terceira miniBox
+
+const mudarCorDaMiniBox3 = () => {
+
+    miniBox3.style.backgroundColor = 'black';
+
+    miniBox3.style.color = 'orangered';
+}
+
+const corNormal3 = () => {
+
+    miniBox3.style.backgroundColor = 'orangered';
+
+    miniBox3.style.color = 'white'
+}
+
+miniBox3.addEventListener('click', mudarCorDaMiniBox3);
+
+miniBox3.addEventListener('mouseleave', corNormal3);
+
+miniBox3.addEventListener('touchend', corNormal3);
 
 //responsividade com js//
 
