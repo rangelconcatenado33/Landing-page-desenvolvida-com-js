@@ -1341,6 +1341,275 @@ miniBox3.addEventListener('mouseleave', corNormal3);
 
 miniBox3.addEventListener('touchend', corNormal3);
 
+var quintoConteiner = document.createElement('div');
+
+//Criando o quinto Conteiner
+
+megaBox.appendChild(quintoConteiner);
+
+quintoConteiner.style.marginTop = '5%';
+
+var section1DoQuintoConteiner = document.createElement('section');
+
+quintoConteiner.appendChild(section1DoQuintoConteiner);
+
+//Criando o titulo
+
+var titleDoQuintoConteiner = document.createElement('h3');
+
+section1DoQuintoConteiner.appendChild(titleDoQuintoConteiner);
+
+titleDoQuintoConteiner.innerHTML = 'DELIVERY TEAM';
+
+titleDoQuintoConteiner.style.fontFamily = roboto;
+
+titleDoQuintoConteiner.style.color = 'orangered';
+
+//Criando o subtitulo
+
+var subTitleDoQuintoConteiner = document.createElement('h1');
+
+section1DoQuintoConteiner.appendChild(subTitleDoQuintoConteiner);
+
+subTitleDoQuintoConteiner.innerHTML = 'Meet Our Delivery Team';
+
+subTitleDoQuintoConteiner.style.fontFamily = roboto;
+
+subTitleDoQuintoConteiner.style.fontSize = '50px';
+
+section1DoQuintoConteiner.style.justifyContent = 'center';
+
+section1DoQuintoConteiner.style.textAlign = 'center';
+
+//Desenvolvendo as box do quinto conteiner
+
+var section2DoConteiner5 = document.createElement('section');
+
+var segundaParteDoQuintoConteiner = document.createElement('div');
+
+var box1DoQuintoConteiner = document.createElement('div');
+
+quintoConteiner.appendChild(segundaParteDoQuintoConteiner);
+
+segundaParteDoQuintoConteiner.appendChild(section2DoConteiner5);
+
+section2DoConteiner5.appendChild(box1DoQuintoConteiner);
+
+box1DoQuintoConteiner.style.backgroundColor = 'Ivory';
+
+box1DoQuintoConteiner.style.width = '300px';
+
+//Colocando as imagens nas box's
+
+const link1 = 'https://raw.githubusercontent.com/rangelconcatenado33/Landing-page-evoluida/main/person-1.png'
+
+const imagem1 = document.createElement('img');
+
+box1DoQuintoConteiner.appendChild(imagem1);
+
+imagem1.src = link1;
+
+imagem1.style.width = '300px';
+
+var titleDaBox1 = document.createElement('h1');
+
+box1DoQuintoConteiner.appendChild(titleDaBox1);
+
+titleDaBox1.innerHTML = 'Full Name';
+
+titleDaBox1.style.fontFamily = roboto;
+
+var subTitleDaBox1 = document.createElement('p');
+
+box1DoQuintoConteiner.appendChild(subTitleDaBox1);
+
+subTitleDaBox1.innerHTML = 'Designation';
+
+subTitleDaBox1.style.fontFamily = rubic;
+
+box1DoQuintoConteiner.style.border = '5px';
+
+box1DoQuintoConteiner.style.borderStyle = 'Groove';
+
+box1DoQuintoConteiner.style.borderColor = 'orangered';
+
+box1DoQuintoConteiner.style.borderRight = 'none';
+
+box1DoQuintoConteiner.style.borderLeft = 'none';
+
+box1DoQuintoConteiner.style.borderTop = 'none';
+
+box1DoQuintoConteiner.style.textAlign = 'center';
+
+//box2 do quinto conteiner
+
+var box2DoQuintoConteiner = document.createElement('div');
+
+segundaParteDoQuintoConteiner.appendChild(section2DoConteiner5);
+
+section2DoConteiner5.appendChild(box2DoQuintoConteiner);
+
+box2DoQuintoConteiner.style.backgroundColor = 'Ivory';
+
+box2DoQuintoConteiner.style.width = '300px';
+
+//Colocando as imagens nas box's
+
+const link2 = 'https://raw.githubusercontent.com/rangelconcatenado33/Landing-page-evoluida/main/person-2.png'
+
+const imagem2 = document.createElement('img');
+
+box2DoQuintoConteiner.appendChild(imagem2);
+
+imagem2.src = link2;
+
+imagem2.style.width = '300px';
+
+var titleDaBox2 = document.createElement('h1');
+
+box2DoQuintoConteiner.appendChild(titleDaBox2);
+
+titleDaBox2.innerHTML = 'Full Name';
+
+titleDaBox2.style.fontFamily = roboto;
+
+var subTitleDaBox2 = document.createElement('p');
+
+box2DoQuintoConteiner.appendChild(subTitleDaBox2);
+
+subTitleDaBox2.innerHTML = 'Designation';
+
+subTitleDaBox2.style.fontFamily = rubic;
+
+box2DoQuintoConteiner.style.border = '5px';
+
+box2DoQuintoConteiner.style.borderStyle = 'Groove';
+
+box2DoQuintoConteiner.style.borderColor = 'orangered';
+
+box2DoQuintoConteiner.style.borderRight = 'none';
+
+box2DoQuintoConteiner.style.borderLeft = 'none';
+
+box2DoQuintoConteiner.style.borderTop = 'none';
+
+box2DoQuintoConteiner.style.textAlign = 'center';
+
+//Box3 do quinto Conteiner
+
+var box3DoQuintoConteiner = document.createElement('div');
+
+section2DoConteiner5.appendChild(box3DoQuintoConteiner);
+
+box3DoQuintoConteiner.style.backgroundColor = 'Ivory';
+
+box3DoQuintoConteiner.style.width = '300px';
+
+//Colocando as imagens nas box's
+
+const link3 = 'https://raw.githubusercontent.com/rangelconcatenado33/Landing-page-evoluida/main/person-3.png'
+
+const imagem3 = document.createElement('img');
+
+box3DoQuintoConteiner.appendChild(imagem3);
+
+imagem3.src = link3;
+
+imagem3.style.width = '300px';
+
+var titleDaBox3 = document.createElement('h1');
+
+box3DoQuintoConteiner.appendChild(titleDaBox3);
+
+titleDaBox3.innerHTML = 'Full Name';
+
+titleDaBox3.style.fontFamily = roboto;
+
+var subTitleDaBox3 = document.createElement('p');
+
+box3DoQuintoConteiner.appendChild(subTitleDaBox3);
+
+subTitleDaBox3.innerHTML = 'Designation';
+
+subTitleDaBox3.style.fontFamily = rubic;
+
+box3DoQuintoConteiner.style.border = '5px';
+
+box3DoQuintoConteiner.style.borderStyle = 'Groove';
+
+box3DoQuintoConteiner.style.borderColor = 'orangered';
+
+box3DoQuintoConteiner.style.borderRight = 'none';
+
+box3DoQuintoConteiner.style.borderLeft = 'none';
+
+box3DoQuintoConteiner.style.borderTop = 'none';
+
+box3DoQuintoConteiner.style.textAlign = 'center';
+
+//Box 4
+
+var box4DoQuintoConteiner = document.createElement('div');
+
+quintoConteiner.appendChild(segundaParteDoQuintoConteiner);
+
+segundaParteDoQuintoConteiner.appendChild(section2DoConteiner5);
+
+section2DoConteiner5.appendChild(box4DoQuintoConteiner);
+
+box4DoQuintoConteiner.style.backgroundColor = 'Ivory';
+
+box4DoQuintoConteiner.style.width = '300px';
+
+
+const link4 = 'https://raw.githubusercontent.com/rangelconcatenado33/Landing-page-evoluida/main/person-4.png'
+
+const imagem4 = document.createElement('img');
+
+box4DoQuintoConteiner.appendChild(imagem4);
+
+imagem4.src = link4;
+
+imagem4.style.width = '300px';
+
+var titleDaBox4 = document.createElement('h1');
+
+box4DoQuintoConteiner.appendChild(titleDaBox4);
+
+titleDaBox4.innerHTML = 'Full Name';
+
+titleDaBox4.style.fontFamily = roboto;
+
+var subTitleDaBox4 = document.createElement('p');
+
+box4DoQuintoConteiner.appendChild(subTitleDaBox4);
+
+subTitleDaBox4.innerHTML = 'Designation';
+
+subTitleDaBox4.style.fontFamily = rubic;
+
+box4DoQuintoConteiner.style.border = '5px';
+
+box4DoQuintoConteiner.style.borderStyle = 'Groove';
+
+box4DoQuintoConteiner.style.borderColor = 'orangered';
+
+box4DoQuintoConteiner.style.borderRight = 'none';
+
+box4DoQuintoConteiner.style.borderLeft = 'none';
+
+box4DoQuintoConteiner.style.borderTop = 'none';
+
+box4DoQuintoConteiner.style.textAlign = 'center';
+
+//Flex box conteiner5
+
+section2DoConteiner5.style.display = 'flex';
+
+section2DoConteiner5.style.justifyContent = 'center';
+
+section2DoConteiner5.style.gap = '15px'
+
 //responsividade com js//
 
 if (screen.width <= '768px') {
