@@ -1608,7 +1608,265 @@ section2DoConteiner5.style.display = 'flex';
 
 section2DoConteiner5.style.justifyContent = 'center';
 
-section2DoConteiner5.style.gap = '15px'
+section2DoConteiner5.style.gap = '15px';
+
+//Criando Sexto conteiner
+
+const sextoConteiner = document.createElement('div');
+
+megaBox.appendChild(sextoConteiner);
+
+sextoConteiner.style.marginTop = '5%';
+
+const section1DoSextoConteiner = document.createElement('section');
+
+sextoConteiner.appendChild(section1DoSextoConteiner);
+
+sextoConteiner.style.justifyContent = 'center';
+
+sextoConteiner.style.alignItems = 'center';
+
+sextoConteiner.style.textAlign = 'center'
+
+const title1DoSextoConteiner = document.createElement('h3');
+
+section1DoSextoConteiner.appendChild(title1DoSextoConteiner);
+
+title1DoSextoConteiner.innerHTML = 'OUR BLOG';
+
+title1DoSextoConteiner.style.fontFamily = roboto;
+
+title1DoSextoConteiner.style.color = 'orangered';
+
+///Criando Segundo Titulo
+
+const title2DoSextoConteiner = document.createElement('h1');
+
+section1DoSextoConteiner.appendChild(title2DoSextoConteiner);
+
+title2DoSextoConteiner.innerText = 'Latest From Blog';
+
+title2DoSextoConteiner.style.fontFamily = roboto;
+
+title2DoSextoConteiner.style.fontSize = '50px';
+
+//Desenvolvendo Box's do Sexto Conteiner
+
+const box1DoSextoConteiner = document.createElement('div');
+
+const secondSectionDoSextoConteiner = document.createElement('section');
+
+sextoConteiner.appendChild(secondSectionDoSextoConteiner);
+
+secondSectionDoSextoConteiner.appendChild(box1DoSextoConteiner);
+
+box1DoSextoConteiner.style.width = '600px';
+
+box1DoSextoConteiner.style.backgroundColor = 'Ivory';
+
+const link1DoSextoConteiner = 'https://raw.githubusercontent.com/rangelconcatenado33/Landing-page-evoluida/main/news-1.png';
+
+const imagem1DoSextoConteiner = document.createElement('img');
+
+box1DoSextoConteiner.appendChild(imagem1DoSextoConteiner);
+
+imagem1DoSextoConteiner.src = link1DoSextoConteiner;
+
+//criando a segunda section
+
+const secondSectionDaBox1DoSextoConteiner = document.createElement('section');
+
+box1DoSextoConteiner.appendChild(secondSectionDaBox1DoSextoConteiner);
+
+const divFourImgThisBox = document.createElement('div');
+
+secondSectionDaBox1DoSextoConteiner.appendChild(divFourImgThisBox);
+
+secondSectionDaBox1DoSextoConteiner.style.fontFamily = rubic
+
+//Imagem da segunda section
+
+const imgThisBox = document.createElement('img');
+
+divFourImgThisBox.appendChild(imgThisBox);
+
+const linkFourImgBox = 'https://images6.fanpop.com/image/photos/41900000/Itachi-Uchiha-itachi-uchiha-41946317-690-690.jpg';
+
+imgThisBox.src = linkFourImgBox;
+
+imgThisBox.style.width = '80px';
+
+imgThisBox.style.height = '80px';
+
+imgThisBox.style.borderRadius = '80px';
+
+//Desenvolvendo textos da section
+
+const paragraf = document.createElement('p');
+
+divFourImgThisBox.appendChild(paragraf);
+
+paragraf.innerText = 'Itachi Uchiha';
+
+const secondDiv = document.createElement('div');
+
+secondSectionDaBox1DoSextoConteiner.appendChild(secondDiv);
+
+secondDiv.innerText = 'Web Desing Shinobi';
+
+secondDiv.style.marginTop = '16px'
+
+//Configurando Desing Da section
+
+divFourImgThisBox.style.display = 'flex';
+
+divFourImgThisBox.style.flexDirection = 'row';
+
+divFourImgThisBox.style.gap = '10px';
+
+secondSectionDaBox1DoSextoConteiner.style.display = 'flex';
+
+secondSectionDaBox1DoSextoConteiner.style.flexDirection = 'row';
+
+secondSectionDaBox1DoSextoConteiner.style.gap = '25px';
+
+//titulo da box1
+
+const bigTitleFourBox = document.createElement('h1');
+
+bigTitleFourBox.style.fontFamily = roboto;
+
+box1DoSextoConteiner.appendChild(bigTitleFourBox);
+
+bigTitleFourBox.innerHTML = 'Kast Tempor Sea Justo dolor';
+
+bigTitleFourBox.style.marginRight = '400px'
+
+bigTitleFourBox.style.width = '500px';
+
+bigTitleFourBox.style.fontSize = '30px';
+
+//Paragrafo da box
+
+const pgDaBox1 = document.createElement('p');
+
+box1DoSextoConteiner.appendChild(pgDaBox1);
+
+pgDaBox1.innerText = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque labore est atque eligendi ad? A sequi repellendus reiciendis fugit eum, voluptates eos! Assumenda modi cupiditate quae sit quo, excepturi qui?';
+
+//Criando box 2
+
+const box2DoSextoConteiner = document.createElement('div');
+
+secondSectionDoSextoConteiner.appendChild(box2DoSextoConteiner);
+
+secondSectionDoSextoConteiner.style.display = 'flex'
+
+secondSectionDoSextoConteiner.style.flexDirection = 'row';
+
+secondSectionDoSextoConteiner.style.justifyContent = 'center';
+
+secondSectionDoSextoConteiner.style.textAlign = 'center';
+
+secondSectionDoSextoConteiner.style.gap = '30px'
+
+box2DoSextoConteiner.style.width = '600px';
+
+box2DoSextoConteiner.style.backgroundColor = 'Ivory';
+
+const link2DoSextoConteiner = 'https://raw.githubusercontent.com/rangelconcatenado33/Landing-page-evoluida/main/news-2.png';
+
+const imagem2DoSextoConteiner = document.createElement('img');
+
+box2DoSextoConteiner.appendChild(imagem2DoSextoConteiner);
+
+imagem2DoSextoConteiner.src = link2DoSextoConteiner;
+
+//criando a segunda section
+
+const secondSectionDaBox2DoSextoConteiner = document.createElement('section');
+
+box2DoSextoConteiner.appendChild(secondSectionDaBox2DoSextoConteiner);
+
+const divFourImgThisBox2 = document.createElement('div');
+
+secondSectionDaBox2DoSextoConteiner.appendChild(divFourImgThisBox2);
+
+secondSectionDaBox2DoSextoConteiner.style.fontFamily = rubic
+
+//Imagem da segunda section
+
+const imgThisBox2 = document.createElement('img');
+
+divFourImgThisBox2.appendChild(imgThisBox2);
+
+const linkFourImgBox2 = 'https://images6.fanpop.com/image/photos/41900000/Itachi-Uchiha-itachi-uchiha-41946317-690-690.jpg';
+
+imgThisBox2.src = linkFourImgBox2;
+
+imgThisBox2.style.width = '80px';
+
+imgThisBox2.style.height = '80px';
+
+imgThisBox2.style.borderRadius = '80px';
+
+//Desenvolvendo textos da section
+
+const paragraf2 = document.createElement('p');
+
+divFourImgThisBox2.appendChild(paragraf2);
+
+paragraf2.innerText = 'Itachi Uchiha';
+
+const secondDiv3 = document.createElement('div');
+
+secondSectionDaBox2DoSextoConteiner.appendChild(secondDiv3);
+
+secondDiv3.innerText = 'Web Desing Shinobi';
+
+secondDiv3.style.marginTop = '16px'
+
+//Configurando Desing Da section
+
+divFourImgThisBox2.style.display = 'flex';
+
+divFourImgThisBox2.style.flexDirection = 'row';
+
+divFourImgThisBox2.style.gap = '10px';
+
+secondSectionDaBox2DoSextoConteiner.style.display = 'flex';
+
+secondSectionDaBox2DoSextoConteiner.style.flexDirection = 'row';
+
+secondSectionDaBox2DoSextoConteiner.style.gap = '25px';
+
+//titulo da box1
+
+const bigTitleFourBox2 = document.createElement('h1');
+
+bigTitleFourBox2.style.fontFamily = roboto;
+
+box2DoSextoConteiner.appendChild(bigTitleFourBox2);
+
+bigTitleFourBox2.innerHTML = 'Kast Tempor Sea Justo dolor';
+
+bigTitleFourBox2.style.marginRight = '400px'
+
+bigTitleFourBox2.style.width = '500px';
+
+bigTitleFourBox2.style.fontSize = '30px';
+
+//Paragrafo da box
+
+const pgDaBox2 = document.createElement('p');
+
+box2DoSextoConteiner.appendChild(pgDaBox2);
+
+pgDaBox2.innerText = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque labore est atque eligendi ad? A sequi repellendus reiciendis fugit eum, voluptates eos! Assumenda modi cupiditate quae sit quo, excepturi qui?';
+
+pgDaBox2.style.fontFamily = rubic;
+
+pgDaBox1.style.fontFamily = rubic
 
 //responsividade com js//
 
