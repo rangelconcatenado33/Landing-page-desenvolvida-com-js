@@ -1753,7 +1753,21 @@ const pgDaBox1 = document.createElement('p');
 box1DoSextoConteiner.appendChild(pgDaBox1);
 
 pgDaBox1.innerText = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque labore est atque eligendi ad? A sequi repellendus reiciendis fugit eum, voluptates eos! Assumenda modi cupiditate quae sit quo, excepturi qui?';
+//link da box1
 
+const linkFourBox1 = document.createElement('a');
+
+box1DoSextoConteiner.appendChild(linkFourBox1);
+
+linkFourBox1.innerHTML = 'READ MORE >'
+
+linkFourBox1.style.fontFamily = rubic
+
+linkFourBox1.style.color = 'orangered';
+
+box1DoSextoConteiner.style.textAlign = 'center';
+
+linkFourBox1.href = '#'
 //Criando box 2
 
 const box2DoSextoConteiner = document.createElement('div');
@@ -1866,7 +1880,294 @@ pgDaBox2.innerText = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
 
 pgDaBox2.style.fontFamily = rubic;
 
-pgDaBox1.style.fontFamily = rubic
+pgDaBox1.style.fontFamily = rubic;
+
+const linkFourBox2 = document.createElement('a');
+
+box2DoSextoConteiner.appendChild(linkFourBox2);
+
+linkFourBox2.innerHTML = 'READ MORE >'
+
+linkFourBox2.style.fontFamily = rubic
+
+linkFourBox2.style.color = 'orangered';
+
+box2DoSextoConteiner.style.textAlign = 'center';
+
+linkFourBox2.href = '#'
+
+//setimo conteiner
+
+const setimoConteiner = document.createElement('section');
+
+const subSetimoConteiner = document.createElement('div')
+
+megaBox.appendChild(setimoConteiner);
+
+setimoConteiner.appendChild(subSetimoConteiner);
+
+subSetimoConteiner.style.display = 'flex';
+
+subSetimoConteiner.style.flexDirection = 'row'
+
+subSetimoConteiner.style.gap = '2%'
+
+setimoConteiner.style.marginTop = '5%'
+
+setimoConteiner.style.backgroundColor = 'black'
+
+//elemntos da primeira box
+
+const box1BoxEnd = document.createElement('div');
+
+box1BoxEnd.innerHTML = 'Box1';
+
+box1BoxEnd.style.backgroundColor = 'black';
+
+box1BoxEnd.style.width = '300px';
+
+const box2BoxEnd = document.createElement('div');
+
+box2BoxEnd.innerHTML = 'Box2'
+
+const box3BoxEnd = document.createElement('div');
+
+box3BoxEnd.innerHTML = 'Box3'
+
+const arrayDeElemntosDaPrimeiraBox = [box1BoxEnd,box2BoxEnd,box3BoxEnd]
+
+//Inserindo no HTML
+const inserirBoxsInHtml = function (array) {
+    
+    array.forEach(element => {
+        
+        subSetimoConteiner.appendChild(element);
+
+        element.innerHTML = 'Box1';
+
+        element.style.backgroundColor = 'black';
+
+        element.style.width = '500px';
+
+        element.style.padding = '1%';
+
+        element.style.justifyContent = 'center';
+
+        element.style.textAlign = 'center'
+    });
+}
+
+inserirBoxsInHtml(arrayDeElemntosDaPrimeiraBox)
+
+//Elementos Da Box1
+
+const subBoxTheBox1 = document.createElement('div');
+
+subBoxTheBox1.style.fontFamily = roboto
+
+subBoxTheBox1.style.color = 'orangered'
+
+subBoxTheBox1.innerHTML = 'Get In Touch'
+
+subBoxTheBox1.style.fontSize = '40px';
+
+subBoxTheBox1.style.backgroundColor = 'black'
+
+const subBoxTheBox2 = document.createElement('div');
+
+const arrayDeElementosTheBox1 = [subBoxTheBox1, subBoxTheBox2];
+
+const inserirInTheBox1 = function (array) {
+    
+    array.forEach(element => {
+        
+        box1BoxEnd.appendChild(element)
+    });
+
+}
+
+
+inserirInTheBox1(arrayDeElementosTheBox1);
+
+//Elementos de subBoxTheBox1
+
+const msg = document.createElement('p');
+
+msg.innerHTML = '123, Street, New Youk, USA'
+
+const msg2 = document.createElement('p');
+
+msg2.innerHTML = 'Phone : +012 345  67890';
+
+const msg3 = document.createElement('p');
+
+msg3.innerHTML = 'info@example.com';
+
+//inserindo elementos midBox da Box1
+
+const arrayDeTextosDaBox1 = [msg, msg2, msg3]
+
+const inserirTextosNaBox1 = function (array) {
+    
+    array.forEach(element => {
+        
+        subBoxTheBox2.appendChild(element);
+
+        element.style.backgroundColor = 'black';
+
+        element.style.color = 'white';
+
+        element.style.fontFamily = rubic
+
+    });
+
+}
+
+inserirTextosNaBox1(arrayDeTextosDaBox1);
+
+//Box 2 Do Setimo  Conteiner
+
+const title2ForBoxEnd2 = document.createElement('div');
+
+title2ForBoxEnd2.style.color = 'orangered'
+
+title2ForBoxEnd2.innerHTML = 'Quick Links'
+
+title2ForBoxEnd2.style.fontSize = '40px';
+
+title2ForBoxEnd2.style.fontFamily = roboto
+
+const textsForBox2 = document.createElement('div');
+
+const elementsForBox2 = [title2ForBoxEnd2, textsForBox2]
+
+//inserindo
+
+const inserirInBox2 = function (array) {
+
+    array.forEach(element => {
+         
+        box2BoxEnd.appendChild(element)
+
+    });
+}
+
+inserirInBox2(elementsForBox2);
+
+//Textos na Box2
+
+const text1ForBox2 = document.createElement('p')
+
+text1ForBox2.innerHTML = '> Home'
+
+const text2ForBox2 = document.createElement('p')
+
+text2ForBox2.innerHTML = '> About Us'
+
+const text3ForBox2 = document.createElement('p')
+
+text3ForBox2.innerHTML = '> Our Services'
+
+const text4ForBox2 = document.createElement('p')
+
+text4ForBox2.innerHTML = '> Pricing Plan'
+
+const text5ForBox2 = document.createElement('p')
+
+text5ForBox2.innerHTML = '> Contact Us'
+
+
+const textsForBox2ConteinerEnd = [text1ForBox2, text2ForBox2, text3ForBox2, text4ForBox2, text5ForBox2]
+
+
+const inserirInBox2TheConteinerEnd = function (array) {
+    
+    array.forEach(element => {
+        
+        textsForBox2.appendChild(element);
+
+        element.style.fontFamily = rubic;
+
+        element.style.color = 'white'
+
+    });
+
+}
+
+
+inserirInBox2TheConteinerEnd(textsForBox2ConteinerEnd)
+
+//Inserindo Elementos na Box3
+
+const titleForBox3 = document.createElement('div');
+
+titleForBox3.style.color = 'orangered'
+
+titleForBox3.innerHTML = 'Newsletter'
+
+titleForBox3.style.fontSize = '40px';
+
+titleForBox3.style.fontFamily = roboto
+
+const formularioTheBox3 = document.createElement('form')
+
+const elementosForBox3 = [titleForBox3, formularioTheBox3]
+
+const inserirInBox3 = function (array) {
+
+        array.forEach(element => {
+            
+            box3BoxEnd.appendChild(element)
+
+        });
+
+}
+
+inserirInBox3(elementosForBox3);
+
+
+//Configurando formulario
+
+const textForForm = document.createElement('p')
+
+textForForm.innerHTML = 
+'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla facilis ex sequi ab molestiae enim provident? Natus alias cum enim, reprehenderit placeat reiciendis, voluptas blanditiis ad soluta laudantium tempora?';
+
+textForForm.style.color = 'white';
+
+textForForm.style.fontFamily = rubic;
+
+const inputForFormulario = document.createElement('input');
+
+inputForFormulario.placeholder = 'Your Eamil Address';
+
+inputForFormulario.style.padding = '1%';
+
+const buttonBox3 = document.createElement('button')
+
+buttonBox3.innerHTML = 'Sign Up'
+
+buttonBox3.style.color = 'white';
+
+buttonBox3.style.backgroundColor = 'orangered'
+
+buttonBox3.style.padding = '1%';
+
+buttonBox3.style.fontFamily = rubic
+
+const elementsInFormTheBox3 = [textForForm, inputForFormulario, buttonBox3]
+
+const finalFunctionThis = function (array) {
+    
+    array.forEach(element => {
+        
+        formularioTheBox3.appendChild(element)
+
+    });
+
+}
+
+finalFunctionThis(elementsInFormTheBox3)
 
 //responsividade com js//
 
